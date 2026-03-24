@@ -1,0 +1,82 @@
+//line
+
+<svg width = "100" height = "100">
+    <line x1="10"
+     y1="10"
+      x2="90"
+       y2="90"
+       stroke="black" stroke-width="3"/>
+</svg>
+
+// rectangle
+<svg width ="10000" height = "10000">
+    <rect x = 100
+    y = 100
+    width = 50
+    height = 80
+    fill = "Red"
+    stroke width = "4"></rect>
+</svg>
+
+// circle
+<div class="wapper">
+    <p>
+        circle
+    </p>
+    <svg width="5000" height="5000">
+    <circle
+      fill="orange"
+      r="30"cx="100"cy="100"
+    />
+  </svg>
+</div>
+
+//circle traansition
+<style>
+    circle{
+       fill: orange;
+    transition: r 400ms, cy 600ms;
+  }
+  button:hover circle,
+  button:focus-visible circle {
+    r: 50px;
+    cy: 100px;
+  }
+</style>
+
+<button>
+  <svg width="100" height="100">
+    <circle
+      r="30"
+      cx="50"
+      cy="50"
+    />
+  </svg>
+</button>
+
+//ellipse
+<svg width=" 2000" height="2000">
+    <ellipse 
+    cx ="150"
+    cy = "150"
+    rx = "75"
+    ry = "50"
+    fill = "red"
+    stroke = "black"
+    stroke-width = "2"/>
+
+</svg>
+
+//polygon
+<svg width="300" height="300">
+  <polygon
+    points="
+        50,150
+        150,50
+        250,150
+        150,250
+    "
+    fill="lightblue"
+    stroke="blue"
+  />
+</svg>
