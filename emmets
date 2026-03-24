@@ -1,0 +1,5 @@
+1)! + enter for demo code
+2).class -> creates direct a div tag
+3)header>nav>ul>li // the '>' here do represent the subclss in this
+4)header>nav>ul>li*3{list item $} //here the dollor "$" do list out the numbers one by  one 
+5)(header>nav)+(ul>li) //here the brackets tells the groping system in it
